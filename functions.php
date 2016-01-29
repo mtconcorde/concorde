@@ -430,6 +430,13 @@ function is_blog () {
 	return ( ((is_archive()) || (is_author()) || (is_category()) || (is_home()) || (is_single()) || (is_tag())) && ( $posttype == 'post')  ) ? true : false ;
 }
 
+/*Adding the title attribute of each menu item to the navigation. This will allow us to add the certificates next to the navigation items within the WordPress admin*/
+add_filter('walker_nav_menu_start_el', 'description_in_nav_el', 10, 4);
+function description_in_nav_el($item_output, $item, $depth, $args)
+{	
+	return preg_replace('/(<a.*?>[^<]*?)</', '$1' . " <span>{$item->attr_title}</span><", $item_output);
+}
+
 /*Add Promos Section Tab */
 if( function_exists('acf_add_options_page') ) {
 	
