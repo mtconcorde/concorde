@@ -34,7 +34,7 @@
 	<?php wp_head(); ?>
 	<script src="http://maps.google.com/maps/api/js?key=AIzaSyDiwiiJnlEJWTVtHoC4PML983F8RmcQPXc&sensor=false"></script>
 	<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
-	<script type="text/javascript">stLight.options({publisher: "70cc964d-75bd-41cc-8700-2134fb9bdb24", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+	<script type="text/javascript">stLight.options({publisher: "dr-f076c7f3-b955-4859-a8e9-5b2fb220c67e", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
 	
 </head>
 <?php 
