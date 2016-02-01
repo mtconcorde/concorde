@@ -6897,6 +6897,10 @@ body .newland #requestinfo.landing .disclaimer {
 /*WordPress Transition Modifications*/
 /************************************/
 
+.page-template-template-management-team .alt {
+	margin-bottom: 36px;
+}
+
 .mobile-separator > a, #block-system-main-menu .col-6 > a, #block-system-main-menu .col-4 > a {
 	display: none !important;
 }
