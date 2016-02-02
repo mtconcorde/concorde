@@ -891,6 +891,7 @@ body.pf-template .block.requestinfo > h3 { font-weight:normal; border-bottom:1px
 }
 
 @media screen and (max-width: 620px) {
+	.page-template-template-basic-landing .header-inner { margin-top: 34px; text-align: center;}
 	.newland .blurb {width: 90%; margin:0 auto 50px;}
 	.newland .hero .hero-inner.alt {background-color: transparent !important; color: #484f54;}
 	#display-mobile {display:block;}
