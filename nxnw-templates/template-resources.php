@@ -130,7 +130,7 @@
 												</div><!-- inner-col-heading -->
 												<div class="inner-col-content">
 													<p>Sexual Misconduct Response and Prevention In Accordance with the Violence Against Women Act</p>
-													<a href="<?php echo content_url(); ?>/img/pdfs/Sexual-Misconduct-Policy-and Procedures.pdf" class="btn-primary-alt">Learn More</a>
+													<a href="<?php echo content_url(); ?>/img/pdfs/Sexual-Misconduct-Policy-and%20Procedures.pdf" class="btn-primary-alt">Learn More</a>
 												</div><!-- inner-col-content -->
 											</div><!-- inner-col -->
 										</div><!-- col-4 -->

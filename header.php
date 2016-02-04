@@ -46,7 +46,7 @@ if (empty($_SESSION['SourceID']) || empty($_SESSION['PhoneNum'])) {
 		<nav id="offscreen-nav" class="visible-xs visible-sm">
 			<div class="mod-inner-info">
 				<div class="nav-separator">
-					<form class="mobile-search" method="get" action="<?php echo home_url(); ?>" role="search">
+					<form class="mobile-search" method="get" action="<?php echo home_url(); ?>">
 						<div class="row clearfix">
 							<div class="col-3">
 								<div class="pull-left">
@@ -54,7 +54,7 @@ if (empty($_SESSION['SourceID']) || empty($_SESSION['PhoneNum'])) {
 								</div><!-- pull-left -->
 							</div><!-- col-3 -->
 							<div class="col-7">
-								<input type="search" name="s" class="searchfield" placeholder="Search" x-webkit-speech="" placeholder="<?php _e( 'Search', 'html5blank' ); ?>">
+								<input type="search" name="s" class="searchfield" placeholder="Search">
 							</div><!-- col-7 -->
 							<div class="col-2">
 								<button type="submit" class="btn-primary"><b class="icon-search"></b></button>

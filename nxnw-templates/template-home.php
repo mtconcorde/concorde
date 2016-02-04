@@ -74,7 +74,6 @@
 												</div><!-- carousel -->
 											</div><!-- col-8 -->
 											<div class="col-4 col-md-12">
-												<h4 class="heading alt text-center"></h4>
 												<div class="matchheight">
 													<section id="requestinfo" class="qcf">
 														<header>Request Information</header>
@@ -95,7 +94,7 @@
 									<div class="row clearfix">
 										<div class="col-6 col-sm-12">
 											<div class="video-wrapper">
-												<iframe width="560" height="315" src="https://www.youtube.com/embed/Uc-4XrzYh9s?rel=0" frameborder="0" allowfullscreen></iframe>
+												<iframe style="border:none;" width="560" height="315" src="https://www.youtube.com/embed/Uc-4XrzYh9s?rel=0" allowfullscreen></iframe>
 											</div><!-- video-wrapper -->
 										</div><!-- col-6 -->
 										<div class="col-6 col-sm-12">
@@ -254,7 +253,7 @@
 												<div class="inner-col equal-col">
 													<div class="inner-col-content">
 														<h4>Questions?</h4>
-													</div><!-inner-col -->
+													</div><!-- inner-col -->
 													<div class="wrapper">
 														<div class="inner-col-content questions">
 															<ul class="list-links-alt list-unformatted text-left">

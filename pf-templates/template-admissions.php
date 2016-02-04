@@ -12,17 +12,17 @@
 										<div class="views-row views-row-1 views-row-odd views-row-first item item-1 active">
 											<div class="hidden-xs hidden-sm hidden-md">
 												<div class="field-content">
-													<img src="<?php echo content_url(); ?>/img/slides/desktop/Jarielle-Desktop.jpg" alt="">
+													<img src="<?php echo content_url(); ?>/img/slides/desktop/Jarielle-Desktop.jpg" alt="Jarielle">
 												</div>	
 											</div>
 											<div class="hidden-xs hidden-sm hidden-lg">
 												<div class="field-content">
-													<img src="<?php echo content_url(); ?>/img/slides/tablet/Jarielle-Tablet.jpg" alt="">	
+													<img src="<?php echo content_url(); ?>/img/slides/tablet/Jarielle-Tablet.jpg" alt="Jarielle">	
 												</div>	
 											</div>
 											<div class="hidden-md hidden-lg">
 												<div class="field-content">
-													<img src="<?php echo content_url(); ?>/img/slides/mobile/Jarielle-Mobile.jpg" alt="">
+													<img src="<?php echo content_url(); ?>/img/slides/mobile/Jarielle-Mobile.jpg" alt="Jarielle">
 												</div>	
 											</div>
 											<div class="carousel-caption">
@@ -40,17 +40,17 @@
 										<div class="views-row views-row-2 views-row-even item item-2">
 											<div class="hidden-xs hidden-sm hidden-md">
 												<div class="field-content">
-													<img src="<?php echo content_url(); ?>/img/slides/desktop/Justin-Desktop.jpg" alt="">
+													<img src="<?php echo content_url(); ?>/img/slides/desktop/Justin-Desktop.jpg" alt="Justin">
 												</div>	
 											</div>
 											<div class="hidden-xs hidden-sm hidden-lg">
 												<div class="field-content">
-													<img src="<?php echo content_url(); ?>/img/slides/tablet/Justin-Tablet.jpg" alt="">
+													<img src="<?php echo content_url(); ?>/img/slides/tablet/Justin-Tablet.jpg" alt="Justin">
 												</div>	
 											</div>
 											<div class="hidden-md hidden-lg">
 												<div class="field-content">
-													<img src="<?php echo content_url(); ?>/img/slides/mobile/Justin-Mobile.jpg" alt="">
+													<img src="<?php echo content_url(); ?>/img/slides/mobile/Justin-Mobile.jpg" alt="Justin">
 												</div>	
 											</div>
 											<div class="carousel-caption">
@@ -68,17 +68,17 @@
 										<div class="views-row views-row-3 views-row-odd views-row-last item item-3">
 											<div class="hidden-xs hidden-sm hidden-md">
 												<div class="field-content">
-													<img src="<?php echo content_url(); ?>/img/slides/desktop/Oliva-Desktop.jpg" alt="">
+													<img src="<?php echo content_url(); ?>/img/slides/desktop/Oliva-Desktop.jpg" alt="Oliva">
 												</div>	
 											</div>
 											<div class="hidden-xs hidden-sm hidden-lg">
 												<div class="field-content">
-													<img src="<?php echo content_url(); ?>/img/slides/tablet/Oliva-Tablet.jpg" alt="">
+													<img src="<?php echo content_url(); ?>/img/slides/tablet/Oliva-Tablet.jpg" alt="Oliva">
 												</div>	
 											</div>
 											<div class="hidden-md hidden-lg">
 												<div class="field-content">
-													<img src="<?php echo content_url(); ?>/img/slides/mobile/Oliva-Mobile.jpg" alt="">
+													<img src="<?php echo content_url(); ?>/img/slides/mobile/Oliva-Mobile.jpg" alt="Oliva">
 												</div>	
 											</div>
 											<div class="carousel-caption">
@@ -153,19 +153,19 @@
 							<div class="carousel" data-effect="slide">
 								<div class="carousel-inner">
 									<div class="item active">
-										<img src="<?php echo content_url(); ?>/img/graduation.png">
+										<img src="<?php echo content_url(); ?>/img/graduation.png" alt="Graduation">
 										<div class="inner-col-content">
 											<h6 class="alt">90,000 - graduates since 2000</h6>
 	        							</div>
     								</div>
 									<div class="item">
-										<img src="<?php echo content_url(); ?>/img/completion.png">
+										<img src="<?php echo content_url(); ?>/img/completion.png" alt="Completion">
 										<div class="inner-col-content">
 											<h6 class="alt">87% - average on-time program completion rate</h6>
 										</div>
     								</div>
 									<div class="item">
-										<img src="<?php echo content_url(); ?>/img/placement.png">
+										<img src="<?php echo content_url(); ?>/img/placement.png" alt="Placement">
 										<div class="inner-col-content">
 											<h6 class="alt">74% - average job placement rate</h6>
 		        						</div>
@@ -202,7 +202,7 @@
 								//--><!]]>
 							</script>
 							<span class="IN-widget" style="line-height: 1; vertical-align: baseline; display: inline-block; border: 1px solid rgb(204, 204, 204); min-width: 300px; max-width: 300px; background-color: rgb(255, 255, 255);">
-								<iframe src="https://www.linkedin.com/cws/alumni?schoolId=33347" scrolling="no" style="overflow: hidden; width: 300px; height: 250px; border: 0px;"></iframe>
+								<iframe src="https://www.linkedin.com/cws/alumni?schoolId=33347" style="overflow: hidden; width: 300px; height: 250px; border: 0px;"></iframe>
 							</span>
 							<script type="IN/AlumniFacet+init" data-linkedin-schoolid="33347"></script>  
 						</div>
