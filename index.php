@@ -34,7 +34,7 @@
 																	<?php endif; ?>
 																	<h5 class="alt"><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h5>
 																	<h6 class="post-date alt"><?php the_time('M. j, Y'); ?></h6>
-																	<p><?php html5wp_excerpt('concorde_index');?></p>
+																	<?php html5wp_excerpt('concorde_index');?>
 																</div><!-- blog-post -->
 														    <?php endif ?>
 														<?php endwhile ?>
@@ -52,7 +52,7 @@
 																	<?php endif; ?>
 																	<h5 class="alt"><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h5>
 																	<h6 class="post-date alt"><?php the_time('M. j, Y'); ?></h6>
-																	<p><?php html5wp_excerpt('concorde_index');?></p>
+																	<?php html5wp_excerpt('concorde_index');?>
 																</div><!-- blog-post -->
 														    <?php endif ?>
 														<?php endwhile ?>

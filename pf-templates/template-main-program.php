@@ -53,11 +53,12 @@
 		<div class="content clearfix">
 			<?php
 			// check for programs (parent repeater)
+			$i = 0;
 			if( have_rows('programs') ): ?>
 				<?php 
 				// loop through programs (parent repeater)
 				while( have_rows('programs') ): the_row(); ?>
-					<div id="block-views-programs-hub-page-block" class="block block-views">
+					<div id="block-views-programs-hub-page-block-<?=$i?>" class="block block-views">
 						<h2><?php the_sub_field('program_category'); ?></h2>
 							<div class="content">
 								<div class="program-block ">
@@ -95,7 +96,7 @@
 								</div><!-- program-block -->
 							</div><!-- content -->
 					</div><!-- program-hub-page-block -->
-				<?php endwhile; // while( has_sub_field('programs') ): ?>		
+				<?php $i++; endwhile; // while( has_sub_field('programs') ): ?>		
 			<?php endif; // if( get_field('programs') ): ?>
 		</div><!-- content -->
 	</div><!-- content_bottom -->
