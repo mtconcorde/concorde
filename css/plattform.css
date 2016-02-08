@@ -13,7 +13,7 @@
 .enterpriseform .step:first-of-type .laststep{display: none;}
 .enterpriseform .step:last-of-type .nextstep{display: none;}
 .enterpriseform label {color: #333; display: block; font-weight: bold; margin-bottom: .5em;}
-.enterpriseform label.error {color: #A51E25; font-size: .8em; font-style: italic; line-height: 1em; margin-bottom: .3em; margin-top: -1.3em;}
+.enterpriseform label.error {color: #A51E25; font-size: .6em; font-style: italic; line-height: 0.6em; margin-bottom: -0.2em; margin-top: 0.2em;}
 .enterpriseform .option label,
 .enterpriseform .option label {display: inline; margin-left: 4px; vertical-align: middle;}
 .enterpriseform .actions {background: none; border:0; clear: both; padding: 0;}
