@@ -431,7 +431,26 @@ $(document).ready(function() {
 		});
 	}
 	
-		
+    // validate signup form on keyup and submit
+    $("#enterpriseform").validate({
+        rules: {
+            LocationID: "required",
+            CurriculumID: "required",
+            firstname: "required",
+            lastname: "required",
+            email: "required",
+            dayphone: "required",
+            lastname: "required"
+        },
+        messages: {
+            LocationID: "Required",
+            CurriculumID: "Required",
+            firstname: "Required",
+            lastname: "Required",
+            email: "Required",
+            dayphone: "Required"
+        }
+    });		
 	
 		
 //Populting programs based on query string	
