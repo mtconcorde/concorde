@@ -144,7 +144,7 @@
 														<div class="news-actions clearfix">
 															<a class="btn-secondary alt prev" data-control="prev"><b class="icon-chevron-left"></b></a>
 															<a class="btn-secondary alt next" data-control="next"><b class="icon-chevron-right"></b></a>
-															<a href="<?php echo get_site_url(); ?>/blog/category/news-events" class="btn-secondary alt all-news">All News</a>
+															<a href="<?php echo get_site_url(); ?>/blog/" class="btn-secondary alt all-news">All News</a>
 														</div><!-- news-actions -->
 													</div><!-- carousel -->
 												</div><!-- inner-col -->

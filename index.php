@@ -25,7 +25,7 @@
 												<!-- even posts -->
 												<div class="col-6 col-xs-12">
 													<?php global $query_string; // required
-														$posts = query_posts($query_string.'&posts_per_page=-1'); ?>
+														$posts = query_posts($query_string); ?>
 														<?php while (have_posts()): the_post() ?>
 														    <?php if ($wp_query->current_post % 2 != 0): ?>
 														        <div class="blog-post inner-col mod-inner even">
@@ -43,7 +43,7 @@
 												<!-- odd posts -->
 												<div class="col-6 col-xs-12">
 													<?php global $query_string; // required
-														$posts = query_posts($query_string.'&posts_per_page=-1'); ?>
+														$posts = query_posts($query_string); ?>
 														<?php while (have_posts()): the_post() ?>
 														    <?php if ($wp_query->current_post % 2 == 0): ?>
 														        <div class="blog-post inner-col mod-inner odd">
