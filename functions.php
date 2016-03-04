@@ -91,6 +91,30 @@ function header_mobile_nav()
 	);
 }
 
+function mobile_theme_nav()
+{
+	wp_nav_menu(
+	array(
+		'theme_location'  => 'mobile-theme-menu',
+		'menu'            => '',
+		'container'       => 'div',
+		'container_class' => 'menu-{menu slug}-container',
+		'container_id'    => '',
+		'menu_class'      => 'menu',
+		'menu_id'         => '',
+		'echo'            => true,
+		'fallback_cb'     => 'wp_page_menu',
+		'before'          => '',
+		'after'           => '',
+		'link_before'     => '',
+		'link_after'      => '',
+		'items_wrap'      => '<ul class="list-unstyled list-unformatted">%3$s</ul>',
+		'depth'           => 0,
+		'walker'          => ''
+		)
+	);
+}
+
 function footer_nav()
 {
 	wp_nav_menu(
@@ -158,7 +182,8 @@ function register_html5_menu()
         'main-desktop-menu' => __('Main Desktop Menu', 'concorde'), // Main Desktop Navigation
         'main-mobile-menu' => __('Main Mobile Menu', 'concorde'), // Main Mobile Navigation
         'sidebar-menu' => __('Sidebar Menu', 'concorde'), // Sidebar Navigation
-        'footer-menu' => __('Footer Menu', 'concorde') // Footer Navigation
+        'footer-menu' => __('Footer Menu', 'concorde'), // Footer Navigation
+        'mobile-theme-menu' => __('Mobile Theme Menu', 'concorde') // Mobile Theme Navigation
     ));
 }
 
